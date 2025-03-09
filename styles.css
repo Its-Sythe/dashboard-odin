@@ -128,7 +128,7 @@ body {
 
 #msg {
     display: grid;
-    grid-template: 75px / 100px 150px;
+    grid-template: 75px / 85px 500px;
     align-items: center;
     padding-left: 5px;
     font-size: 24px;
@@ -196,6 +196,11 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 3px;
+    gap: 12px;
+}
+
+#action-opt > svg{
+    width: 25px;
 }
 
 #right-side {
