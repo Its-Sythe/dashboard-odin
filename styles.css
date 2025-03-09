@@ -17,6 +17,7 @@ body {
     display: grid;
     grid-template-rows: 100px 35px 35px 35px 35px 35px 35px 35px 35px 35px 35px;
     align-items: center;
+    padding-left: 8px;
 }
 
 #side-nav {
@@ -57,7 +58,7 @@ body {
 
 #top-area {
     display: grid;
-    grid-template-columns: 450px 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 6px;
     font-size: 18px;
     font-weight: 700;
@@ -66,7 +67,7 @@ body {
 #search-space {
     display: flex;
     align-items: center;
-    padding-left: 5px;
+    padding-left: 10px;
     gap: 5px;
 }
 
@@ -98,6 +99,13 @@ body {
 #user-info {
     display: flex;
     gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-info > img {
+    width: 60px;
+    border-radius: 50%;
 }
 
 /* Top area styling ends here */
@@ -106,7 +114,7 @@ body {
 
 #lower-area {
     display: grid;
-    grid-template-columns: 450px 1fr;
+    grid-template-columns: 2fr 1fr;
     font-size: 18px;
     font-weight: 700;
     align-items: center;
@@ -126,6 +134,11 @@ body {
     font-size: 24px;
 }
 
+#msg > img {
+    width: 60px;
+    border-radius: 50%;
+}
+
 #nav > button {
     text-align: center;
     background-color: rgb(76, 151, 250);
@@ -139,6 +152,7 @@ body {
 #welcome > #me{
     font-size: 15px;
 }
+
 
 /* Lower area styling ends here */
 
@@ -203,5 +217,16 @@ body {
     border-bottom: 1px solid;
 }
 
+#title-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#title-space > svg {
+    height: 30px;
+    width: 25px;
+}
 
 /* Content area styling ends here */
